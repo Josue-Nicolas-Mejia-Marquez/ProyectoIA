@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url('/imagenes/fondo.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: rgb(240, 240, 240);
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #fff;
+    width: 20%;
+    min-width: 100px;
+    position: relative;
+    padding: 50px 10px;
+    border-radius: 3px;
+    box-shadow: 0 4px 10px rgba(2,2,2,0.16);
+    user-select: none; 
+}
+
+
+input[type="file"]{
+    display: none;
+}
+
+label{
+    position: absolute;
+    bottom: 2rem;
+    background-color: #ff47b2;
+    color: #fff;
+    font-size: 10px;
+    text-align: center;
+    width: 8rem;
+    padding: 10px 0;
+    border-radius: 5rem;
+    cursor: pointer;
+    border: solid 3px #ffa0e2;
+}
+
+label:active{
+    transform: scale(.9);
+}
+
+.container p{
+    font-size: 10px;
+    font-weight: 100;
+    color: rgb(112, 112, 112);
+    text-align: center;
+    position: relative;
+    top: 2rem;
+    user-select: none;
+}
+
+#images{
+    position: relative;
+    bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#images2{
+    position: relative;
+    bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#images3{
+    position: relative;
+    bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+img{
+    width: 50%;
+}
+
+figure{
+    width: 30%;
+}
+
+figcaption{
+    text-align: center;
+    font-size: 6px;
+    color: rgb(90, 88, 88);
+    margin-top: 4px;
+}

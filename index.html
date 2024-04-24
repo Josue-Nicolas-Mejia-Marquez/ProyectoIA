@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/28bfdf4ff8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--para imagen 1-->
+    <div class="container">
+        <div id="images"></div>
+        <input type="file" id="file-input" accept="image/png, image/jpeg" onchange="preview()" multiple>
+        <label for="file-input" id="button">
+            <i class="fas fa-upload"> Upload Image</i>
+        </label>
+        <p id="number-of-img">No image Selected</p>
+    </div>
+
+    <!--para imagen 2-->
+    <div class="container">
+        <div id="images2"></div>
+        <input type="file" id="file-input2" accept="image/png, image/jpeg" onchange="preview2()" multiple>
+        <label for="file-input2" id="button2">
+            <i class="fas fa-upload"> Upload Image</i>
+        </label>
+        <p id="number-of-img2">No image Selected</p>
+    </div>
+
+    <!--para imagen 3-->
+    <div class="container">
+        <div id="images3"></div>
+        <input type="file" id="file-input3" accept="image/png, image/jpeg" onchange="preview3()" multiple>
+        <label for="file-input3" id="button3">
+            <i class="fas fa-upload"> Upload Image</i>
+        </label>
+        <p id="number-of-img3">No image Selected</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
